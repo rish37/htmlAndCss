@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Tahoma;
+    -ms-overflow-style: none;
+
+}
+*::-webkit-scrollbar{
+background: transparent;
+display: none;
+  scrollbar-width: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: brown;
+    /* height: fit-content; */
+    border-collapse: collapse;
+}
+.logo{
+    /* float: left; */
+    position: absolute;
+    font-size: 40px;
+    font-weight: bolder;
+    top: 20px;
+    left: 130px;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+ul{
+    position:absolute;
+    /* display: inline-block; */
+    top: 30px;
+    left: 700px;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    /* margin: 0px 0px 0px 0px ; */
+    font-size: 20px;
+    font-weight:bold;
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    /* border-bottom:2px solid white ; */
+    padding: 10px;
+    /* transition: 0.5s ease-in; */
+}
+ul li a:hover{
+    color: brown;
+    background-color: white;
+    /* transition: 0.2s ease; */
+}
+.search{
+    position:absolute;
+    /* display: inline-block; */
+    top: 30px;
+    left: 1400px;
+    cursor: pointer;
+    margin: 0;
+}
+.src{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    font-size: 18px;
+    outline: none;
+    color: brown;
+}
+.btn{
+    background: white;
+    border: none;
+    padding: 14px;
+    margin-left: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: brown;
+}
+.btn i{
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+.btn:hover{
+color: aliceblue;
+background: rgb(121, 34, 34);
+}
+.content{
+    /* box-sizing: border-box; */
+    /* min-height: 300vh; */
+    /* padding: 80px; */
+    margin: 100px;
+    color: aliceblue;
+    /* font-weight: bold; */
+}
+.content h2{
+position: absolute;
+/* min-height: 500vh; */
+display: flex;
+left: 15vh;
+top: 30vh;
+font-size:6em;
+animation:motion1  2s 1 forwards;
+}
+.content p{
+    position:absolute;
+/* min-height: 500vh; */
+display: flex;
+left: 15vh;
+top: 35vh;
+font-size: 60px;
+animation:motion2  2s 1  forwards ;
+}
+.content .shape{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    /* padding: ; */
+    border-radius: 5% 5% 5% 100%;
+    background: white;
+    left: 115vh;
+    top: 20vh;
+    z-index: 1;
+
+}
+@keyframes motion1 {
+    from {
+        left: 15vh;
+        top: 30vh;
+     position: absolute;
+     color: rgba(240, 248, 255, 0);
+     
+    }
+    to{
+        left: 15vh;
+        top: 60vh; 
+        position: absolute;
+        color: rgb(240, 248, 255);
+    }
+}
+@keyframes motion2 {
+    from {
+        left: 15vh;
+        top: 35vh;
+     position: absolute;
+     color: rgba(240, 248, 255, 0);
+     
+    }
+    to{
+        left: 15vh;
+        top: 70vh; 
+        position: absolute;
+        color: rgb(240, 248, 255);
+    }
+}
+.box2{
+    background: white;
+    width: 1918px;
+    height: 1009px;
+    top: 100vh;
+    position: absolute;
+    padding: none;
+}
+.box2 .text{
+    width: 700px;
+    height: 1009px;  
+    background: rgba(211, 211, 211, 0.808);
+}
+.box2 p{
+    padding: 4em;
+    font-size: 1.5em;
+    position:relative; 
+    top: 100px;
+    color: rgb(56, 14, 14);
+}
+  .img1{
+    position:absolute;
+    width: 263px;
+    height: 394px;
+    top: 5em;
+    left: 60em;
+    border-radius: 10%;
+}
+.img2{
+    position:absolute;
+    width: 263px;
+    height: 394px;
+    top: 5em;
+    left: 90em;
+    border-radius: 10%;
+}
+.img3{
+    position:absolute;
+    width: 263px;
+    height: 394px;
+    top: 35em;
+    left: 60em;
+    border-radius: 10%;
+}
+.img4{
+    position:absolute;
+    width: 263px;
+    height: 394px;
+    top: 35em;
+    left: 90em;
+    border-radius: 10%;
+}
+.box3{
+    width: 1918px;
+    height: 1090px;
+    top: 200vh;
+    position: absolute;  
+}
+        .box3  .job .para{
+        position: absolute;
+        color: white;
+        font-size: 60px;
+        top: 4em;
+        left: 2em;
+        letter-spacing: 2px;
+    }
+    .box3 .job #apply{
+        position: absolute;
+        border: none;
+        background: white;
+        width: 200px;
+        height: 70px;
+        font-size: 2.5em;
+        color: rgb(129, 33, 33);
+        font-weight:600;
+        border-radius: 40px;
+        top: 12em;
+        left: 7em;
+        cursor: pointer;
+    } 
+    .box3 .job #apply:hover{
+        background: rgb(82, 21, 21);
+        color: white;
+    }
+    .box3 .job .shape{
+        width: 700px;
+        height: 800px;
+        position: absolute;
+        border-radius: 10% 10% 10% 100%;
+        background: url("../project4/fasion3.jpg") top;
+        left: 110vh;
+        bottom: 13em;
+        /* bottom: ; */
+    }
+    .box4{
+        width: 1918px;
+        height: 1200px;
+        top: 300vh;
+        position: absolute;
+        background: white;
+    }
+    .box4 .shape1{
+        width: 550px;
+        height: 900px;
+        position: absolute;
+        border-radius: 10% 200em 200em 10%;
+        background: brown;
+        top: 2em;
+        left: 2em;
+
+    }
+    .box4 .form{
+        width: 1060px;
+        height: 900px;
+        position:absolute;
+        border-radius: 5% 5% 5% 5%;
+        background: rgba(134, 134, 134, 0.459);
+        top: 2em;
+        left: 50em;
+    }
+    .form h1{
+        color: brown;
+        font-size: 60px;
+        font-family: arial;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        text-align: center;
+    }
++
+
+
+
+
+
